@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const client = new Discord.Client();
-bot.login('NDUwMzU0ODI0NDg4Mjg4MjU2.DeyBJQ.wA6CMz-SZgZOSOmZGNJBxV_2_Uo');
+bot.login(process.env.TOKEN);
 
 
 var prefix = ("/")
