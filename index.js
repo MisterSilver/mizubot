@@ -75,12 +75,15 @@ bot.on('message', message => {
                 .setColor("#0174DF")
                 .setFooter("Bon moment parmis nous jeune Mizien ! :)")
         message.channel.sendEmbed(embed);  
-     console.log("Commande Salut");
     }
     
     if (message.content === prefix + "ellyana") {
-     message.reply("zelgot est personne :open_mouth:");
-     console.log("Commande Salut");
+        var embed = new Discord.RichEmbed()
+                .setTitle("Mizu")
+                .addField("Qui est zelgot ?", "Fondatrice et Rédactrice en chef du serveur", true)
+                .setColor("#7C40A4")
+                .setFooter("Bon moment parmis nous jeune Mizien ! :)")
+        message.channel.sendEmbed(embed);  
     }
 
     //commande perso 
