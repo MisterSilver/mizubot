@@ -8,7 +8,7 @@ var prefix = ("/")
 
 
 bot.on('ready', function() {
-    bot.user.setGame("Chercher l'ovule");
+    bot.user.setGame("Mizu || Serveur");
     console.log("Connect");
 });
 
